@@ -54,12 +54,12 @@ resetBtn.addEventListener("click", function () {
     resdes.textContent="Yeah! Lets Start the Game 😊"
 });
 
-colorDisplay.textContent = pickedColor;
+// colorDisplay.textContent = pickedColor;
 
-for (var i = 0; i < squares.length; i++) {
-    squares[i].style.backgroundColor = colors[i];
-}
-resdes.textContent="Yeah! Lets Start the Game 😊"
+// for (var i = 0; i < squares.length; i++) {
+//     squares[i].style.backgroundColor = colors[i];
+// }
+// resdes.textContent="Yeah! Lets Start the Game 😊"
 for (var i = 0; i < squares.length; i++) {
     squares[i].addEventListener("click", function () {
         var clickedColor = this.style.backgroundColor;
